@@ -1,6 +1,6 @@
 import dirTree = require('directory-tree');
 
 export default (): dirTree.DirectoryTree =>
-  dirTree('src/pages', {
+  dirTree('src/content', {
     extensions: /\.(md|mdx)$/,
   });
